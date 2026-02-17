@@ -15,7 +15,7 @@ export default function ChatBot({ token }: { token: string | null }) {
     {
       role: "assistant",
       content:
-        "Hi! I'm CardWise AI. Ask me which credit card to use for any purchase and I'll recommend the best one based on your cards!",
+        "Hi! I'm CardSavvy AI. Ask me which credit card to use for any purchase and I'll recommend the best one based on your cards!",
     },
   ]);
   const [input, setInput] = useState("");
@@ -104,7 +104,7 @@ export default function ChatBot({ token }: { token: string | null }) {
               <div className="w-8 h-8 bg-white border-2 border-black flex items-center justify-center shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                 <Sparkles className="w-5 h-5 text-[hsl(var(--indigo))]" />
               </div>
-              CardWise AI
+              CardSavvy AI
             </CardTitle>
             <button onClick={() => setIsOpen(false)} className="text-white hover:bg-white/20 p-2 border-2 border-white" aria-label="Close chat">
               <X className="w-5 h-5" />

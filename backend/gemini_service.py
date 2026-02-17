@@ -84,7 +84,7 @@ def _call_gemini(prompt: str, tools: list[dict[str, Any]] | None = None) -> dict
 
 def generate_chat_reply(message: str, verified_wallet_cards: list[dict[str, Any]]) -> str:
     prompt = (
-        "You are CardWise AI for credit card rewards optimization. "
+        "You are CardSavvy AI for credit card rewards optimization. "
         "Recommend cards only from the user's VERIFIED wallet cards below.\n\n"
         f"VERIFIED WALLET CARDS:\n{json.dumps(verified_wallet_cards, indent=2)}\n\n"
         f"USER MESSAGE:\n{message}\n\n"

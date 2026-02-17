@@ -79,7 +79,7 @@ export default function Home() {
         <header className="border-4 border-black bg-white p-4">
           <div className="flex items-center gap-3">
             <CreditCard className="w-8 h-8" />
-            <h1 className="text-3xl font-bold uppercase">CardWise</h1>
+            <h1 className="text-3xl font-bold uppercase">CardSavvy</h1>
           </div>
         </header>
 

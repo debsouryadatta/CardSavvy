@@ -165,7 +165,7 @@ export default function Dashboard() {
               <div className="w-12 h-12 bg-black border-4 border-black flex items-center justify-center shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] rotate-[-5deg]">
                 <CreditCard className="w-7 h-7 text-white rotate-[5deg]" />
               </div>
-              <h1 className="text-3xl font-bold uppercase tracking-tight">CardWise</h1>
+              <h1 className="text-3xl font-bold uppercase tracking-tight">CardSavvy</h1>
             </div>
             <div className="flex items-center gap-2">
               <Button onClick={() => navigate("/")} variant="outline" size="sm" className="gap-2">
@@ -349,7 +349,7 @@ export default function Dashboard() {
 
       <footer className="border-t-4 border-black bg-[hsl(var(--lavender))] py-6 mt-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-sm font-bold uppercase">© 2024 CardWise. Maximize Every Swipe.</p>
+          <p className="text-sm font-bold uppercase">© 2024 CardSavvy. Maximize Every Swipe.</p>
         </div>
       </footer>
     </div>

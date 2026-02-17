@@ -128,7 +128,7 @@ export default function Landing() {
               <div className="w-14 h-14 bg-black border-4 border-black flex items-center justify-center shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] rotate-[-5deg]">
                 <CreditCard className="w-8 h-8 text-white rotate-[5deg]" />
               </div>
-              <h1 className="text-4xl font-bold uppercase tracking-tight">CardWise</h1>
+              <h1 className="text-4xl font-bold uppercase tracking-tight">CardSavvy</h1>
             </div>
             <div className="flex items-center gap-3">
               <Button onClick={() => openAuth("signin")} variant="outline">Launch App</Button>
@@ -155,7 +155,7 @@ export default function Landing() {
             Again
           </h2>
           <p className="text-2xl text-gray-700 mb-12 max-w-3xl mx-auto">
-            CardWise uses AI to instantly recommend the best credit card for every purchase,
+            CardSavvy uses AI to instantly recommend the best credit card for every purchase,
             maximizing your rewards automatically
           </p>
           <div className="flex gap-6 justify-center">
@@ -272,7 +272,7 @@ export default function Landing() {
                 <div className="w-10 h-10 bg-black border-4 border-black flex items-center justify-center">
                   <CreditCard className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold uppercase">CardWise</h3>
+                <h3 className="text-2xl font-bold uppercase">CardSavvy</h3>
               </div>
               <p className="text-sm font-medium">Maximize every swipe with AI-powered card recommendations</p>
             </div>
@@ -290,7 +290,7 @@ export default function Landing() {
             </div>
           </div>
           <div className="text-center pt-8 border-t-4 border-black">
-            <p className="text-sm font-bold uppercase">© 2024 CardWise. All Rights Reserved.</p>
+            <p className="text-sm font-bold uppercase">© 2024 CardSavvy. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
