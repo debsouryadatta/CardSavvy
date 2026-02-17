@@ -7,6 +7,28 @@ pip install -r requirements.txt
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
+## Docker (Render)
+
+Build locally:
+
+```bash
+docker build -t cardsavvy-backend ./backend
+docker run --rm -p 8000:8000 --env-file ./backend/.env cardsavvy-backend
+```
+
+Render setup:
+
+- Service type: `Web Service`
+- Runtime: `Docker`
+- Dockerfile path: `backend/Dockerfile`
+- Docker build context: `backend`
+- Port: Render provides `PORT` automatically (container command already uses it)
+- Add env vars in Render dashboard:
+  - `JWT_SECRET`
+  - `DB_PATH` (your Neon PostgreSQL URL)
+  - `GEMINI_API_KEY`
+  - `GEMINI_MODEL` (optional)
+
 ## Env
 
 - `JWT_SECRET`
